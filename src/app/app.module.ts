@@ -1,18 +1,30 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
+import { RouterModule } from '@angular/router'; // for routing
+import { HttpClientModule } from '@angular/common/http'; // for the http client
+import { FormsModule } from '@angular/forms'; // to handle forms
+
 import { AppComponent } from './app.component';
+import { JoinComponent } from './join/join.component';
+import { ChatComponent } from './chat/chat.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    JoinComponent,
+    ChatComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    FormsModule,
+    HttpClientModule,
+    RouterModule.forRoot([
+      { path: '', component: ChatComponent },
+      { path: 'join', component: JoinComponent },
+    ]),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
