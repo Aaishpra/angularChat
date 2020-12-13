@@ -1,6 +1,10 @@
 # AngularChat
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
+This is the frontend part of the Application maple created with angular and django.
+
+![image](https://user-images.githubusercontent.com/66299533/102005568-bc850400-3d3f-11eb-8d03-31c5ac89f5f9.png)
+
+Checkout the backend part of the application [here](https://github.com/Aaishpra/maple).
 
 ## Development server
 
