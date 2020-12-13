@@ -1,4 +1,6 @@
-# AngularChat
+# Maple
+
+## About
 
 This is the frontend part of the Application maple created with angular and django.
 
