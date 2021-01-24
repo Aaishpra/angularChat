@@ -2,7 +2,7 @@
 
 ## About
 
-This is the frontend part of the Application maple created with angular and django.
+This is the frontend part of the chat application maple created with angular and django.
 
 ![image](https://user-images.githubusercontent.com/66299533/102005568-bc850400-3d3f-11eb-8d03-31c5ac89f5f9.png)
 
